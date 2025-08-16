@@ -106,32 +106,42 @@
 - cron runs tasks repeatedly and is not best if you want to schedule task only once.
 
 
-
-- 
-
+18.​What are environment variables and how are they set?​
+- Environment variables are small piece of information that computer uses. Some are temporary that gets erased after the terminal is closed and some are permanent which are usable even after the system is rebooted.
 
 19.​What does the pipe | operator do in Linux?​
 - Pipe | is used to run multiple commands at once. This is mostly used for controlling stdin and stdout. Most likely used to store outputs elsewhere or opening a command output in separate window.
 
 
+20.​How is tar different from zip?​
+- tar files are archive files similar to zip files.
+- tar files are more commonly found in Linux OS and Zip files are more common in Windows.
+- tar files only archives bunch of files, where zip both archives and compresses it.
 
 
+21.​What’s the difference between apt update, upgrade, and install?
+- apt update: It updates the list of packages that are available on the internet repositories.
+- apt upgrade: It updates the installed packages on the system to the latest version.
+- apt install: It is used to install packages and software. The command does nothing if the package or software is already installed.
 
 
+22.​What is the use of /etc/passwd and /etc/shadow?​
+- /etc/passwd: used to store the user account information. Each line equals to one user.
+- /etc/shadow: Stores the user's encrypted passwords and its setting. Can only be accessed by the root user.
 
 
+23.​Explain process states in Linux (Running, Sleeping, Zombie)
+- Running: Process is running or ready to run. Tasks that are using CPU.
+- Sleeping: Process is waiting for input/output or is reading files.
+- Zombie: Process has completed running but not cleaned up from the system or are not using any memory or cpu.
 
 
+24.​What is the significance of inode in Linux?
+- Inode stores the metadata about the file. File type, timestamp, owner, permissions, links or pointers in the system etc. Except the file name.
+- Linux used inode to identify files. Even if the name of file is changed.
 
 
-
-
-
-
-
-
-
-
-
-
-
+25.​Explain the concept of standard input, output, and error.
+- std input: Designates where the input for the command comes from.
+- std output: Designates where the output of the command goes to.
+- std error: Designates where the error of the command goes to.
