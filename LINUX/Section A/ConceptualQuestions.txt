@@ -66,6 +66,60 @@
 - Meaning the permissions are 644 (rwxr--r--) that is Read write and execute for owner, read for group and others.
 
 
+11.​What is the function of grep and how is it used in log analysis?​
+- Grep function is used to search and locate a specific text or pattern in files.
+- Its use in log analysis is to monitor errors and track user activities and track errors.
+
+
+12.​How does cut differ from awk?
+- cut: Cut is used to extract specific columns or text from a file based on some delimiters. Its is fast and simple. But cannot perform complex operations.
+- awk: Is slight slower than cut but it is very complex and supports full scripting. Filtering, Modifying, Calculations etc
+
+
+13.​What is the use of the find command? Give syntax.​
+- Find command is used to find a specific file in your system.
+- Syntax:
+	$ find /directory -name filename.extension
+	$ find /directory -type file_type -name filename
+
+
+14.​How does sed handle file editing?​
+- sed is a text editing tool in Linux.
+- It reads the text line by line, applies command on each line and outputs to standard output by default.
+- sed is non-interactive and can automate repetitive text editing, making it very useful in log processing, configuration updates, and scripting.
+
+
+15.​What’s the difference between df -h and du -sh?
+- df -h: Shows the free and used storage details of the filesystem and partitions.
+- du -sh: Shows the storage of a specific directory.
+
+
+16.​What is the use of ps, top, and htop?
+- ps: Displays the information about a selection of the active processes.
+- top: Displays real time view of the running system. Displays system summary as well as threads and processes currently being managed by the kernel.
+- htop: Similar to top but more interactive and colorful.
+
+
+17.​Explain how cron is used for scheduling in Linux.​
+- cron runs in the background as a daemon and checks the crontab for any scheduled tasks.
+- cron tab is where the tasks are assigned for scheduling. Specific details for scheduling can be assigned like time, date etc.
+- cron runs tasks repeatedly and is not best if you want to schedule task only once.
+
+
+
+- 
+
+
+19.​What does the pipe | operator do in Linux?​
+- Pipe | is used to run multiple commands at once. This is mostly used for controlling stdin and stdout. Most likely used to store outputs elsewhere or opening a command output in separate window.
+
+
+
+
+
+
+
+
 
 
 
