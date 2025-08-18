@@ -1,0 +1,89 @@
+1.​ What are the key features of Python that make it suitable for data engineering?​
+- Easy to learn, readable syntax with extensive libraries (pandas, NumPy, PySpark) for handling data.
+- Strong support for data manipulation, automation, and integration with databases and big data tools.
+
+2.​ Explain the difference between a variable and a constant in Python.​
+- Variable: Value can change during program execution (example: x = 5, later x = 10).
+- Constant: Value should not be changed once assigned (by convention written in uppercase, e.g., PI = 3.14).
+
+3.​ List Python's main built-in data types and give one example of each.​
+- Numeric (int, float) → x = 10
+- Sequence (list, tuple, range) → my_list = [1, 2, 3]
+- Text (str) → name = "John"
+- Set types (set, frozenset) → s = {1, 2, 3}
+- Mapping (dict) → d = {"a": 1, "b": 2}
+
+4.​ What is the difference between mutable and immutable data types? Give examples.​
+- Mutable: Can be changed after creation (list, dict, set).
+- Immutable: Cannot be changed after creation (str, tuple, int).
+
+5.​ Difference between list, tuple, and set.​
+- List: Ordered, mutable, allows duplicates → [1, 2, 2].
+- Tuple: Ordered, immutable, allows duplicates → (1, 2, 2).
+- Set: Unordered, mutable, no duplicates → {1, 2}.
+
+6.​ What is zero-based indexing? Explain with an example.​
+- Indexing starts from 0, meaning first element is at position 0.
+- Example: list = [10, 20, 30]; list[0] = 10.
+
+7.​ How do you check the type of a variable in Python?​
+- Using type() function.
+- Example: type(123) → <class 'int'>.
+
+8.​ What is the difference between is and == in Python?​
+- is: Checks memory identity (if two objects are the same in memory).
+- ==: Checks equality of values.
+
+9.​ Name Python’s sequence types and explain their usage.​
+- list → ordered, mutable collection.
+- tuple → ordered, immutable collection.
+- range → sequence of numbers used in loops.
+
+10.​ What are identity and membership operators in Python? Give examples.​
+- Identity (is, is not) → Checks if two variables point to same object.
+- Membership (in, not in) → Checks if value exists in a sequence.
+- Example: 5 in [1, 2, 5] → True.
+
+11.​ Explain the difference between append() and insert() in lists.​
+- append(): Adds element at the end → list.append(4).
+- insert(): Adds element at specific index → list.insert(1, 5).
+
+12.​ What is tuple unpacking? Show an example.​
+- Assigning tuple elements to multiple variables at once.
+- Example: a, b, c = (1, 2, 3).
+
+13.​ How do you add an item to a set? Can sets have duplicate elements?​
+- Use add() method → s.add(4).
+- Sets cannot have duplicate elements.
+
+14.​ What is the difference between remove() and discard() in a set?​
+- remove(): Removes element, throws error if not found.
+- discard(): Removes element, does nothing if not found.
+
+15.​ Explain what a slice is in Python and give an example.​
+- Slice extracts a portion of sequence using indices.
+- Example: list[1:4] → returns elements from index 1 to 3.
+
+16.​ What is the difference between strip(), lstrip(), and rstrip() in strings?​
+- strip(): Removes spaces from both ends.
+- lstrip(): Removes spaces from left side.
+- rstrip(): Removes spaces from right side.
+
+17.​ Name any 5 string methods and their usage.​
+- upper(): Converts to uppercase.
+- lower(): Converts to lowercase.
+- split(): Splits string into list.
+- join(): Joins list into string.
+- replace(): Replaces part of string.
+
+18.​ How do you find the number of elements in a tuple?​
+- Use len() function.
+- Example: len((1, 2, 3)) → 3.
+
+19.​ What is the difference between union() and update() in sets?​
+- union(): Returns a new set with combined elements.
+- update(): Adds elements of another set to the existing set.
+
+20.​ Can a tuple contain mutable objects? Explain with an example.​
+- Yes, tuples are immutable but can hold mutable objects inside.
+- Example: t = ([1, 2], 3); here list inside tuple can be modified.
